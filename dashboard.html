@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="logo">
+                <span>✓</span> Taskly
+            </div>
+            <nav>
+                <a href="dashboard.html" class="active">Dashboard</a>
+                <a href="today.html">Today</a>
+                <a href="overdue.html">Overdue</a>
+                <a href="tasks.html">Tasks</a>
+            </nav>
+
+            <div class="bottom-menu">
+                <a href="#">settings</a>
+                <a href="login.html">Logout</a>
+            </div>
+
+        </aside>
+        
+        <main class="main-content">
+            <header>
+                <h1>Dashboard</h1>
+            </header>
+            <section class="stats">
+
+                <div class="card">
+                    <h2>total tasks</h2>
+                    <p>24</p>
+                </div>
+
+                <div class="card">
+                    <h2>Completed</h2>
+                    <p>15</p>
+                </div>
+
+                <div class="card">
+                    <h2>pending</h2>
+                    <p>6</p>
+                </div>
+
+                <div class="card">
+                    <h2>Overdue</h2>
+                    <p>3</p>
+                </div>
+
+            </section>
+
+            <section class="dashboard-section">
+                <h2>recent tasks</h2>
+
+                <div class="task-list">
+
+                    <div class="task">
+                        <div>
+                            <h2>Finish Frontend Project</h2>
+                            <p>Due today</p>
+                        </div>
+
+                        <span class="priority high">High</span> 
+                    </div>
+
+                    <div class="task">
+                        <div>
+                            <h2>Study JavaScript</h2>
+                            <p>Due today</p>
+                        </div>
+
+                        <span class="priority medium">Medium</span>
+                    </div>
+
+                    <div class="task">
+                        <div>
+                            <h2>English Assignment</h2>
+                            <p>Due tommorrow</p>
+                        </div>
+
+                        <span class="priority low">Low</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="dashboard-section">
+
+                <h2>Task Progress</h2>
+
+                <div class="progress-container">
+
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                </div>
+
+                <p>15 of 24 tasks completed</p>
+
+                </div>    
+            </section>
+  
+        </main>
+
+    </div>
+</body>
+</html>
