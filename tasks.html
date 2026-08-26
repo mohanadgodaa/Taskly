@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskly - Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <span>✓</span> Taskly
+        </div>
+
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="today.html">Today</a>
+            <a href="overdue.html">Overdue</a>
+            <a href="tasks.html" class="active">Tasks</a>
+        </nav>
+
+        <div class="bottom-menu">
+            <a href="#">Settings</a>
+            <a href="login.html">Logout</a>
+        </div>
+
+    </aside>
+
+
+    <main class="main-content">
+
+        <header>
+            <h1>All Tasks</h1>
+            <p>View and manage all your tasks.</p>
+        </header>
+
+
+        <section class="task-controls">
+
+            <input
+                type="text"
+                placeholder="Search tasks..."
+            >
+
+            <select>
+
+                <option>Sort by</option>
+                <option>Newest</option>
+                <option>Oldest</option>
+                <option>Priority</option>
+                <option>Due Date</option>
+
+            </select>
+
+        </section>
+
+
+        <section class="dashboard-section">
+
+            <div class="task-list">
+
+                <div class="task">
+
+                    <div class="task-info">
+
+                        <h3>Finish Frontend Project</h3>
+
+                        <p>Due: August 26</p>
+
+                    </div>
+
+                    <span class="priority high">Pending</span>
+
+                </div>
+
+
+                <div class="task">
+
+                    <div class="task-info">
+
+                        <h3>Study JavaScript</h3>
+
+                        <p>Due: August 26</p>
+
+                    </div>
+
+                    <span class="priority medium">Completed</span>
+
+                </div>
+
+
+                <div class="task">
+
+                    <div class="task-info">
+
+                        <h3>Database Assignment</h3>
+
+                        <p>Due: August 23</p>
+
+                    </div>
+
+                    <span class="priority high">Overdue</span>
+
+                </div>
+
+
+                <div class="task">
+
+                    <div class="task-info">
+
+                        <h3>Read Computer Science Book</h3>
+
+                        <p>Due: August 27</p>
+
+                    </div>
+
+                    <span class="priority low">Pending</span>
+
+                </div>
+
+
+                <div class="task">
+
+                    <div class="task-info">
+
+                        <h3>Review SQL Notes</h3>
+
+                        <p>Due: August 28</p>
+
+                    </div>
+
+                    <span class="priority medium">Pending</span>
+
+                </div>
+
+
+                <div class="task">
+
+                    <div class="task-info">
+
+                        <h3>Complete UI Design</h3>
+
+                        <p>Due: August 24</p>
+
+                    </div>
+
+                    <span class="priority high">Overdue</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
